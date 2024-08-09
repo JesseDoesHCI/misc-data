@@ -1,0 +1,33 @@
+ID,Activity,Parent,ParentID,% of Parent,% Completed,Complete,Stack,Overall %,OrderVal
+1,ROOT,,,100.00%,100.00%,TRUE,0,100.00%,
+2,Combat,ROOT,1,50.00%,100.00%,TRUE,1,50.00%,0
+3,Attack,Combat,2,50.00%,100.00%,TRUE,2,25.00%,00
+4,Use Weapon,Attack,3,50.00%,100.00%,TRUE,3,25.00%,000
+5,Sword,Use Weapon,4,16.67%,100.00%,TRUE,4,8.33%,0000
+6,Bow,Use Weapon,4,16.67%,100.00%,TRUE,4,8.33%,0001
+7,Shield,Use Weapon,4,16.67%,100.00%,TRUE,4,8.33%,0002
+8,Spear,Use Weapon,4,16.67%,100.00%,TRUE,4,8.33%,0003
+9,Knuckles,Use Weapon,4,16.67%,100.00%,TRUE,4,8.33%,0004
+10,Gun,Use Weapon,4,16.67%,100.00%,TRUE,4,8.33%,0005
+11,Sword - Slash,Sword,5,50.00%,,TRUE,5,8.33%,00000
+12,Sword - Slam,Sword,5,50.00%,,TRUE,5,8.33%,00001
+13,Bow - Basic,Bow,6,33.33%,,TRUE,5,5.56%,00010
+14,Bow - Charge,Bow,6,33.33%,,TRUE,5,5.56%,00011
+15,Bow - Spread,Bow,6,33.33%,,TRUE,5,5.56%,00012
+16,Spear - Basic,Spear,8,50.00%,,TRUE,5,8.33%,00030
+17,Spear - Throw,Spear,8,25.00%,,TRUE,5,4.17%,00031
+18,Spear - Recall,Spear,8,25.00%,,TRUE,5,4.17%,00032
+19,Shield - Defend,Shield,7,33.33%,,TRUE,5,5.56%,00020
+20,Shield - Bull Rush,Shield,7,33.33%,,TRUE,5,5.56%,00021
+21,Shield - Throw,Shield,7,33.33%,,TRUE,5,5.56%,00022
+22,Knuckles - Basic,Knuckles,9,50.00%,,TRUE,5,8.33%,00040
+23,Knuckles - Uppercut,Knuckles,9,50.00%,,TRUE,5,8.33%,00041
+24,Gun - Shoot,Gun,10,33.33%,,TRUE,5,5.56%,00050
+25,Gun - Reload,Gun,10,33.33%,,TRUE,5,5.56%,00051
+26,Gun - Mortar,Gun,10,33.33%,,TRUE,5,5.56%,00052
+27,Movement,ROOT,1,50.00%,100.00%,TRUE,1,50.00%,1
+28,Walk,Movement,27,80.00%,,TRUE,2,40.00%,10
+29,Dash,Movement,27,20.00%,,TRUE,2,10.00%,11
+30,Defend,Combat,2,50.00%,,TRUE,2,25.00%,01
+31,Use Spell,Attack,3,30.00%,,TRUE,3,15.00%,001
+32,Use Call,Attack,3,20.00%,,TRUE,3,10.00%,002
