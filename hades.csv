@@ -1,4 +1,4 @@
-ID,Activity,Parent,ParentID,% of Parent,% Completed,Complete,Stack,Overall %,OrderVal
+ID,Activity,Parent,ParentID,Pct_Parent,Pct_Completed,Complete,Stack,Pct_Overall,OrderVal
 1,ROOT,,,100.00%,100.00%,TRUE,0,100.00%,
 2,Combat,ROOT,1,50.00%,100.00%,TRUE,1,50.00%,0
 3,Attack,Combat,2,50.00%,100.00%,TRUE,2,25.00%,00
